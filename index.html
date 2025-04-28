@@ -197,46 +197,49 @@
   
   <div id="introPage" class="page active">
     <section>
-      <h2>Project Overview</h2>
-      <p><strong>Turbulence & Triumph</strong> is a comprehensive, data-driven exploration of how the U.S. airline industry responded to two major economic disruptions: the 2008 financial crisis and the COVID-19 pandemic. This project analyzes long-term trends over 20 years (2003–2023) of quarterly data, focusing on passenger volumes, financial performance, and operational recovery across major U.S. airlines.</p>
-    </section>
+      <h1>Project Overview</h1>
+      <p><strong>Turbulence & Triumph</strong> is a comprehensive, data-driven exploration of how the U.S. airline industry responded to two major economic disruptions: the 2008 financial crisis and the COVID-19 pandemic. This project analyzes long-term trends across 20 years (2003–2023) of quarterly data, focusing on passenger volumes, financial performance, and operational recovery across major U.S. airlines.</p>
+      <p>Going beyond short-term financial snapshots or anecdotal narratives, Turbulence & Triumph offers a <strong>longitudinal view</strong> of the airline industry's resilience and adaptability. It investigates the operational and financial trajectories of major airlines, providing valuable insights into industry dynamics, strategic responses, and long-term recovery. The project highlights patterns of resilience, recovery, realignment, and strategic shifts that have reshaped the aviation landscape over two decades.</p>
     
-    <section>
+      <h2>Scope & Significance</h2>
+      <p>This study identifies <strong>patterns of resilience and vulnerability</strong> across different airline business models—Legacy, Low-Cost (LCC), and Regional—during and after economic crises. By systematically examining pre-, during-, and post-crisis performance, the findings aim to inform stakeholders across aviation, finance, and policy on the <strong>structural strengths and weaknesses</strong> of the U.S. airline sector. The research also offers airlines and investors a comparative framework to guide <strong>future strategic planning and crisis preparedness</strong>.</p>
+    
       <h2>Dataset Description</h2>
-      <p>The dataset consists of quarterly financial and operational data from 2003 to 2023 for selected U.S. airlines. Aggregated from publicly available sources and structured for time-series analysis, the dataset covers key attributes such as:</p>
+      <p>The dataset consists of quarterly financial and operational data from 2003 to 2023 for selected U.S. airlines. Aggregated from publicly available sources (such as DOT, SEC filings, and airline investor reports) and curated for time-series and cluster-based analysis, the dataset covers key attributes such as:</p>
       <ul>
-        <li>Passenger traffic per airline per quarter</li>
-        <li>Net income (profits or losses reported quarterly)</li>
-        <li>Operating revenue figures</li>
-        <li>Airline classification into clusters: Legacy, Low-Cost (LCC), and Regional</li>
+        <li><strong>Passenger Traffic</strong>: Number of passengers per airline per quarter</li>
+        <li><strong>Net Income</strong>: Profits or losses reported quarterly</li>
+        <li><strong>Operating Revenue</strong>: Total revenue from airline operations</li>
+        <li><strong>Airline Classification</strong>:
+          <ul>
+            <li><strong>Legacy Carriers</strong> (e.g., American, Delta, United)</li>
+            <li><strong>Low-Cost Carriers (LCCs)</strong> (e.g., Southwest, JetBlue, Spirit)</li>
+            <li><strong>Regional Airlines</strong> (e.g., SkyWest, Envoy, Republic)</li>
+          </ul>
+        </li>
       </ul>
-      <p>This structured dataset enables comparative analysis across different airline business models and recovery profiles over two decades.</p>
-    </section>
+      <p>This structured dataset enables robust comparative analysis across different airline models and their recovery profiles across two decades.</p>
     
-    <section>
       <h2>Research Objectives</h2>
-      <p>This project aims to answer the following key questions:</p>
+      <p>The project seeks to answer the following key questions:</p>
       <ul>
-        <li>Which airline types demonstrated the strongest recovery after major crises?</li>
-        <li>How did airline market share evolve over time, especially during disruptions?</li>
-        <li>Which airlines showed consistent financial resilience?</li>
-        <li>How do cluster-based patterns help explain industry dynamics?</li>
+        <li><strong>Recovery Strength</strong>: Which airline types demonstrated the most robust recovery after major crises, and what factors contributed to their rebound?</li>
+        <li><strong>Market Share Dynamics</strong>: How did airline market share evolve over time, especially during disruption and recovery phases?</li>
+        <li><strong>Financial Resilience</strong>: Which airlines consistently maintained profitability or quickly returned to positive net income after economic shocks?</li>
+        <li><strong>Cluster-Based Insights</strong>: How do structural characteristics within Legacy, LCC, and Regional clusters explain broader industry trends or strategic misalignments?</li>
       </ul>
-    </section>
+      <p>Ultimately, Turbulence & Triumph aims to reveal how strategic responses during crises shaped long-term competitive positioning.</p>
     
-    <section>
       <h2>Analytical Approach</h2>
-      <p>The project employs a blend of visual and statistical techniques, including:</p>
+      <p>The project employs a <strong>multi-layered analytical framework</strong> integrating visualization, statistical modeling, and comparative analysis:</p>
       <ul>
-        <li>Trend analysis of passenger counts and revenue by cluster and airline</li>
-        <li>Volatility tracking of market share and operational metrics</li>
-        <li>Net income comparisons and resilience evaluations</li>
-        <li>Performance indexing across different airline clusters</li>
-        <li>Identification and visualization of strategic outliers and recovery patterns</li>
+        <li><strong>Trend Analysis</strong>: Time-series plots to visualize trends in passenger counts, revenue, and profits across airlines and clusters, highlighting pre- and post-crisis trajectories.</li>
+        <li><strong>Volatility Tracking</strong>: Measurement of market share volatility and operational disruptions to differentiate between stable performers and highly impacted carriers.</li>
+        <li><strong>Resilience & Performance Indexing</strong>: Construction of indices evaluating financial resilience and operational efficiency over time, ranking airlines within their clusters.</li>
+        <li><strong>Strategic Outlier Identification</strong>: Isolation of airlines that consistently outperformed or underperformed relative to their peers using z-scores, quartile analysis, and visual dashboards.</li>
+        <li><strong>Cluster-Based Comparisons</strong>: Comparative analysis revealing how cost structures, route strategies, and market positioning influenced resilience and recovery.</li>
       </ul>
-    </section>
     
-    <section>
       <h2>Navigation Guide</h2>
       <p>The site is organized into the following sections, accessible from the sidebar menu:</p>
       <ul>
@@ -245,9 +248,7 @@
         <li><strong>Forecasts</strong> – Predictive modeling and forward-looking projections (2024–2025)</li>
         <li><strong>Power BI Dashboard</strong> – Interactive summary dashboards and KPIs</li>
       </ul>
-    </section>
     
-    <section>
       <h2>Technologies Used</h2>
       <ul>
         <li><strong>Python (Pandas, NumPy)</strong> – Data wrangling and preprocessing</li>
@@ -255,7 +256,17 @@
         <li><strong>HTML & CSS</strong> – Website design, styling, and layout</li>
         <li><strong>Power BI</strong> – Advanced dashboard visualization and KPI reporting</li>
       </ul>
-    </section>    
+    
+      <h2>Conclusion & Impact</h2>
+      <p><strong>Turbulence & Triumph</strong> provides a structured lens into how the U.S. airline industry weathered two generational disruptions. It identifies resilience patterns, financial vulnerabilities, and strategic missteps that have shaped the sector's evolution.</p>
+      <p>The findings have direct implications for:</p>
+      <ul>
+        <li><strong>Policy Development</strong>: Informing regulatory bodies on how to support industry stability.</li>
+        <li><strong>Investor Insight</strong>: Helping analysts understand airline risk profiles and future growth potential.</li>
+        <li><strong>Strategic Planning</strong>: Offering airlines a benchmark to improve resilience against future economic disruptions.</li>
+      </ul>
+    </section>
+        
   </div>
 
 
